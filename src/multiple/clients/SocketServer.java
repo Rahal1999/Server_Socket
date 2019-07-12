@@ -23,6 +23,7 @@ public class SocketServer extends Thread {
 		InputStream in = null;
 		OutputStream out = null;
 		try {
+			
 			in = socket.getInputStream();
 			out = socket.getOutputStream();
 			BufferedReader br = new BufferedReader(new InputStreamReader(in));
