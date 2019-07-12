@@ -22,6 +22,7 @@ public class SocketServer extends Thread {
 	public void run() {
 		InputStream in = null;
 		OutputStream out = null;
+		
 		try {
 
 			in = socket.getInputStream();
